@@ -9,7 +9,7 @@ def-env activate-virtualenv [] {
     }
 
     let is_windows = ((sys).host.name | str downcase) == 'windows'
-    let virtual_env = '/Users/shallanidevi/Desktop/banking-system/venv'
+    let virtual_env = '/Users/shallanidevi/Documents/GitHub/sparks_foundation_GRIP/web_#task1_webbanking-system/venv'
     let bin = 'bin'
     let path_sep = ':'
     let path_name = if $is_windows {
@@ -89,4 +89,4 @@ def-env activate-virtualenv [] {
 activate-virtualenv
 
 alias pydoc = python -m pydoc
-alias deactivate = source '/Users/shallanidevi/Desktop/banking-system/venv/bin/deactivate.nu'
+alias deactivate = source '/Users/shallanidevi/Documents/GitHub/sparks_foundation_GRIP/web_#task1_webbanking-system/venv/bin/deactivate.nu'

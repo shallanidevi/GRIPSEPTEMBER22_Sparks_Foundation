@@ -44,7 +44,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/Users/shallanidevi/Desktop/banking-system/venv'
+VIRTUAL_ENV='/Users/shallanidevi/Documents/GitHub/sparks_foundation_GRIP/web_#task1_webbanking-system/venv'
 if ([ "$OSTYPE" = "cygwin" ] || [ "$OSTYPE" = "msys" ]) && $(command -v cygpath &> /dev/null) ; then
     VIRTUAL_ENV=$(cygpath -u "$VIRTUAL_ENV")
 fi

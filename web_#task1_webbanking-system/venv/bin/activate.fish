@@ -1,5 +1,5 @@
 # This file must be used using `source bin/activate.fish` *within a running fish ( http://fishshell.com ) session*.
-
+# Do not run it directly.
 
 function _bashify_path -d "Converts a fish path to something bash can recognize"
     set fishy_path $argv
@@ -57,7 +57,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/Users/shallanidevi/Desktop/banking-system/venv'
+set -gx VIRTUAL_ENV '/Users/shallanidevi/Documents/GitHub/sparks_foundation_GRIP/web_#task1_webbanking-system/venv'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3

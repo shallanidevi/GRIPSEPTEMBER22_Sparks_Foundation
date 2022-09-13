@@ -1,4 +1,6 @@
-
+# This file must be used with "source bin/activate.csh" *from csh*.
+# You cannot run it directly.
+# Created by Davide Di Blasi <davidedb@gmail.com>.
 
 set newline='\
 '
@@ -8,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV '/Users/shallanidevi/Desktop/banking-system/venv'
+setenv VIRTUAL_ENV '/Users/shallanidevi/Documents/GitHub/sparks_foundation_GRIP/web_#task1_webbanking-system/venv'
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
